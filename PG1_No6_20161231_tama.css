@@ -1,0 +1,23 @@
+table.TableStyle2 {
+    border-top: 1px solid #95B3D7;
+    border-left: 1px solid #95B3D7;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+.TableStyle2 th {
+    border-right: 1px solid #95B3D7;
+    color: #FFFFFF;
+    background-color: #4F81BD;
+    padding: 0.3em 1em;
+    text-align: center;
+}
+.TableStyle2 td {
+    border-right: 1px solid #95B3D7;
+    border-bottom: 1px solid #95B3D7;
+    padding: 0.3em 1em;
+}
+.TableStyle2 tr:nth-child(even) {
+    background: #DCE6F1;
+}
+
